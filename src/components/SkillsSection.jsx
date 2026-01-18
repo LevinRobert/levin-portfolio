@@ -2,29 +2,19 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
-
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
-
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+   { name: "AWS", level: 95, category: "all" },
+    { name: "Docker", level: 90, category: "all" },
+    { name: "Kubernetes", level: 80, category: "all" },
+    { name: "Terraform", level: 80, category: "all" },
+    { name: "Jenkins", level: 75, category: "all" },
+    { name: "Git", level: 95, category: "all" },
+    { name: "Linux", level: 90, category: "all" },
+    { name: "Python", level: 85, category: "all" },
+    { name: "Bash Scripting", level: 80, category: "all" },
+    { name: "Prometheus & Grafana", level: 70, category: "all" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

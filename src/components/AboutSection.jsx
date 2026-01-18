@@ -12,13 +12,11 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate DevOps Engineer & Web Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              Hello I am a fresher DevOps Engineer who has experiences in DevOps Tools such as AWS, Jenkins, Docker, Kubernetes, Ansible, Terraform, Prometheus, Grafana etc. I have a strong foundation in cloud computing and infrastructure as code, and I enjoy automating processes to improve efficiency and reliability.
             </p>
 
             <p className="text-muted-foreground">
@@ -50,10 +48,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> DevOps Engineer</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Creating automated CI/CD pipelines and managing cloud infrastructure.
+                    
                   </p>
                 </div>
               </div>
@@ -64,10 +62,9 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Automate Applications</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Developing automated solutions to streamline application deployment and management.
                   </p>
                 </div>
               </div>

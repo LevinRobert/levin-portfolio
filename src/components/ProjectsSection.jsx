@@ -3,20 +3,19 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Website Depoloyment Automation",
+    description: "I built a React application and automated its build and deployment using Jenkins. The application was containerized with Docker and deployed on Kubernetes using ArgoCD. Monitoring was implemented using Prometheus and Grafana..",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["AWS", "Jenkins", "Docker", "Sonarqube", "Kubernetes", "ArgoCD", "Prometheus & Grafana"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "Netflix Clone Deployment",
+    description: "This project focuses on building a complete CI/CD pipeline. Developers push code to GitHub, Jenkins triggers the pipeline, builds the application, runs code quality and security scans using SonarQube and Trivy, builds a Docker image, pushes it to AWS ECR, and ArgoCD deploys the application to an EKS cluster. Monitoring is handled using Prometheus and Grafana.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["AWS", "Docker","Jenkins", "Kubernetes" , "Grafana & Prometheus"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -24,9 +23,9 @@ const projects = [
     id: 3,
     title: "E-commerce Platform",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Pulled git repo from github, used jenkins ci/cd to automate build test run, used dckerhub to build and push the images, deployed of EKS cluster, and finally used grafana & prometheus for monitoring.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["AWS", "Docker", "Kubernetes", "Jenkins"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -76,14 +75,14 @@ export const ProjectsSection = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
-                      href={project.demoUrl}
+                      href="https://github.com/LevinRobert/devops-redefinee-project.git"
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
                     </a>
                     <a
-                      href={project.githubUrl}
+                      href="https://github.com/LevinRobert/finance-website.git"
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
@@ -100,7 +99,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/LevinRobert"
           >
             Check My Github <ArrowRight size={16} />
           </a>
